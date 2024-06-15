@@ -1,0 +1,47 @@
+{
+  "name": "fe-toko-buku",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "start-server": "node server/index.js", 
+    "dev-all": "concurrently \"npm run dev\" \"npm run start-server\""
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.2",
+    "firebase-auth": "^0.1.2",
+    "imagekit": "^5.0.1",
+    "imagekitio-react": "^4.1.0",
+    "install": "^0.13.0",
+    "lru-cache": "^10.2.2",
+    "lucide-react": "^0.383.0",
+    "midtrans-client": "^1.3.1",
+    "next": "14.2.3",
+    "npm": "^10.8.1",
+    "react": "^18",
+    "react-confirm-alert": "^3.0.6",
+    "react-dom": "^18",
+    "react-toastify": "^10.0.5",
+    "tailwind-merge": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.1",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "^18",
+    "concurrently": "^8.2.2",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "5.4.5"
+  }
+}
